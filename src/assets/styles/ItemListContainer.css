@@ -1,0 +1,8 @@
+.mensaje-inicio{
+    background-color: rgb(255, 234, 0);
+    color: black;
+    font-weight:bolder;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+}
