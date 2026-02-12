@@ -18,9 +18,9 @@ const NavBar = ()=>{
         //     <a className='enlace' href="">Contacto</a>
         //     <CartWidget/>
         // </nav>
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="navbar-custom" sticky="top">
       <Container fluid>
-         <img className='logo' src='../public/logo.png' alt="logo" />
+         <img className='logo' src='https://i.postimg.cc/pTJtdxzT/logo.png' alt="logo" />
         <Navbar.Brand href="#">Home Spa</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -32,7 +32,8 @@ const NavBar = ()=>{
             <Nav.Link href="#action1">Inicio</Nav.Link>
             <Nav.Link href="#action2">Box</Nav.Link>
             <NavDropdown title="Categorías" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Cuidado</NavDropdown.Item>                <NavDropdown.Divider />
+              <NavDropdown.Item href="#action3">Cuidado</NavDropdown.Item>                
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action4">
                 Velas y Aromas
               </NavDropdown.Item>

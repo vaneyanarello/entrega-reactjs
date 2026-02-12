@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .mensaje-inicio{
-    background-color: rgb(255, 234, 0);
-    color: black;
-    font-weight:bolder;
-    padding: 1vw;
+    background-color:#ecd6c7;
+    color: #946343;
+    padding: 0.7vw;
     display: flex;
     justify-content: center;
+    font-size: medium;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    /* margin-top: 12vh; */
 }

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.item-render{
+    border: 1px solid #946343 ;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    width: 80%;
+    margin-left: 80px;
+    font-family: 'PlayfairDisplay', serif;
+    color: #946343;
+    
+}
+
+.item-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item-info .select{
+   color: #946343;
+}

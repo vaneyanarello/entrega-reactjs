@@ -5,5 +5,10 @@
 }
 
 body{
-  background-color: rgb(247, 244, 214);
+  background-color: #ffffff;
+  /* margin-top: 85px; */
+}
+
+body .cards{
+  margin-left: 50px;
 }

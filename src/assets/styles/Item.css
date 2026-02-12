@@ -1,0 +1,19 @@
+.card{
+    font-family: 'Georgia';
+    color: #caac99;
+}
+
+.card .card-title{
+    color: #946343;
+}
+.card-button{
+    background-color:#ecd6c7;
+    border-color: #ecd6c7;
+    color: #946343;
+}
+
+.card-button:hover{
+    background-color:#946343;
+    border-color: #946343;
+    color: #ecd6c7;
+}

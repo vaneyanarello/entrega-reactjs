@@ -2,7 +2,7 @@
   {
     "id": "001",
     "name": "Box Relax Total",
-    "short_description": "Un refugio de calma para desconectar del mundo y volver a vos.", 
+    "short_description": "Un refugio de calma para desconectar y volver a vos.", 
     "long_description":"Disfrutá de un momento de relajación profundo pensado para esos días en los que necesitás bajar el ritmo y reconectar con vos misma. Relax Total combina aromas suaves, texturas delicadas y pequeños gestos que transforman cualquier espacio en un ritual de bienestar. La vela aromática crea un ambiente cálido y envolvente, la sal de baño invita a soltar tensiones y regalarle a tu cuerpo suavidad, la infusión natural acompaña con calma y reconexión, la toalla facial suma una sensación de mimo y cuidado delicado, y el aceite corporal nutre e hidrata, dejando la piel suave y luminosa. Cada detalle está pensado para que este ritual te brinde pausa, confort y un momento de autocuidado real.",
     "price": 49.99,
     "stock": 20,
@@ -84,18 +84,19 @@
     ],
     "img": "https://i.postimg.cc/6qbRCT8R/box5.png"
   },
-
   {
     "id": "006",
     "name": "Aceite corporal",
     "short_description": "Nutrición intensa y aromas suaves para tu piel.",
     "long_description": "Cuidá tu piel con una fórmula pensada para nutrir, hidratar y dejarla suave y luminosa, incluso en los días más exigentes. Nuestro aceite corporal se absorbe rápidamente, sin dejar sensación grasosa, envolviendo la piel en una película ligera que ayuda a mantenerla confortable y radiante durante más tiempo. Ideal para aplicar después del baño o siempre que lo necesites, transforma un gesto cotidiano en un pequeño ritual de bienestar. Almendra, nutritiva y rica en vitaminas, ideal para pieles secas que necesitan suavidad y elasticidad. Coco, ligero y profundamente hidratante, perfecto para mantener la piel tersa, suave y confortable. Lavanda, calmante y delicado, acompaña la hidratación diaria con un aroma relajante que transforma tu rutina en un momento de autocuidado.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Almendra", "price": 14.99, "stock": 20, "img": "https://i.postimg.cc/6qbRCT8K/aceite1.png" },
-      { "variant_name": "Coco", "price": 14.99, "stock": 15, "img": "https://i.postimg.cc/rswxd5ws/aceite2.png" },
-      { "variant_name": "Lavanda", "price": 14.99, "stock": 15, "img": "https://i.postimg.cc/fyRm3YRR/aceite3.png" }
+      { "variant_name": "Almendra", "price": 14.90, "stock": 22, "img": "https://i.postimg.cc/6qbRCT8K/aceite1.png" },
+      { "variant_name": "Coco", "price": 14.90, "stock": 18, "img": "https://i.postimg.cc/rswxd5ws/aceite2.png" },
+      { "variant_name": "Lavanda", "price": 14.90, "stock": 17, "img": "https://i.postimg.cc/fyRm3YRR/aceite3.png" }
     ],
+    "price": 14.90,
+    "stock": 57,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/fyRm3YRR/aceite3.png"
   },
   {
@@ -103,12 +104,14 @@
     "name": "Sales de baño",
     "short_description": "Relajación profunda a través del agua y el aroma.",
     "long_description": "Cuidá tus manos con una fórmula pensada para hidratar, proteger y devolver suavidad incluso en los días más exigentes. Nuestra crema de manos se absorbe rápidamente sin dejar sensación grasosa, creando una barrera ligera que ayuda a mantener la piel nutrida y confortable durante más tiempo. Ideal para llevar en el bolso y reaplicar siempre que lo necesites, transforma un gesto cotidiano en un pequeño momento de autocuidado. Karité, rica y profundamente nutritiva, perfecta para manos secas que necesitan reparación y elasticidad. Glicerina, ligera e hidratante, ideal para mantener la suavidad diaria y proteger frente a la deshidratación. Dos opciones diseñadas para acompañarte en cada estación y mantener tus manos suaves, cuidadas y naturalmente lindas.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Blanco Clásico", "price": 9.99, "stock": 20, "img": "https://i.postimg.cc/vT295D4Q/sales1.png" },
-      { "variant_name": "Rosa", "price": 9.99, "stock": 15, "img": "https://i.postimg.cc/6qbRCT83/sales2.png" },
-      { "variant_name": "Lavanda", "price": 9.99, "stock": 15, "img": "https://i.postimg.cc/wM4JD31q/sales3.png" }
+      { "variant_name": "Blanco Clásico", "price": 9.90, "stock": 25, "img": "https://i.postimg.cc/vT295D4Q/sales1.png" },
+      { "variant_name": "Rosa", "price": 9.90, "stock": 20, "img": "https://i.postimg.cc/6qbRCT83/sales2.png" },
+      { "variant_name": "Lavanda", "price": 9.90, "stock": 18, "img": "https://i.postimg.cc/wM4JD31q/sales3.png" }
     ],
+    "price": 9.90,
+    "stock": 63,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/6qbRCT83/sales2.png"
   },
   {
@@ -116,24 +119,28 @@
     "name": "Crema de manos",
     "short_description": "Suavidad y cuidado diario para tus manos.",
     "long_description": "Cuidá tus manos con una fórmula pensada para hidratar, proteger y devolver suavidad incluso en los días más exigentes. Nuestra crema de manos se absorbe rápidamente sin dejar sensación grasosa, creando una barrera ligera que ayuda a mantener la piel nutrida y confortable durante más tiempo. Ideal para llevar en el bolso y reaplicar siempre que lo necesites, transforma un gesto cotidiano en un pequeño momento de autocuidado. Karité, rica y profundamente nutritiva, perfecta para manos secas que necesitan reparación y elasticidad. Glicerina, ligera e hidratante, ideal para mantener la suavidad diaria y proteger frente a la deshidratación. Dos opciones diseñadas para acompañarte en cada estación y mantener tus manos suaves, cuidadas y naturalmente lindas.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Karité", "price": 12.99, "stock": 25, "img": "https://i.postimg.cc/Qtsp32L3/crema_manos1.png" },
-      { "variant_name": "Glicerina", "price": 12.99, "stock": 25, "img": "https://i.postimg.cc/pdKD326g/crema_manos2.png" }
+      { "variant_name": "Karité", "price": 12.50, "stock": 30, "img": "https://i.postimg.cc/Qtsp32L3/crema_manos1.png" },
+      { "variant_name": "Glicerina", "price": 12.50, "stock": 28, "img": "https://i.postimg.cc/pdKD326g/crema_manos2.png" }
     ],
+    "price": 12.50,
+    "stock": 58,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/Qtsp32L3/crema_manos1.png"
   },
   {
     "id": "009",
     "name": "Crema corporal",
     "short_description": "Hidratación profunda con textura suave.",
-    "long_description": "nvolvé tu piel en una caricia de hidratación profunda con nuestra crema corporal, formulada para nutrir, suavizar y devolver elasticidad desde la primera aplicación. Su textura cremosa se funde delicadamente, dejando una sensación sedosa y un aroma sutil que acompaña durante el día sin resultar invasivo. Ideal para incorporar después de la ducha o como parte de tu ritual nocturno de autocuidado. Almendra, cálida y reconfortante, perfecta para una nutrición intensa y una sensación envolvente. Coco, suave y ligeramente tropical, ideal para quienes buscan hidratación con un toque fresco y delicado. Lavanda, relajante y equilibrante, pensada para cerrar el día con calma y armonía. Tres experiencias distintas para convertir la hidratación diaria en un verdadero momento de conexión y bienestar.",
-    "category": "Cuidado",
+    "long_description": "Involvé tu piel en una caricia de hidratación profunda con nuestra crema corporal, formulada para nutrir, suavizar y devolver elasticidad desde la primera aplicación. Su textura cremosa se funde delicadamente, dejando una sensación sedosa y un aroma sutil que acompaña durante el día sin resultar invasivo. Ideal para incorporar después de la ducha o como parte de tu ritual nocturno de autocuidado. Almendra, cálida y reconfortante, perfecta para una nutrición intensa y una sensación envolvente. Coco, suave y ligeramente tropical, ideal para quienes buscan hidratación con un toque fresco y delicado. Lavanda, relajante y equilibrante, pensada para cerrar el día con calma y armonía. Tres experiencias distintas para convertir la hidratación diaria en un verdadero momento de conexión y bienestar.",
     "variants": [
-      { "variant_name": "Almendra", "price": 15.99, "stock": 20, "img": "https://i.postimg.cc/ydP0YLBn/crema1.png" },
-      { "variant_name": "Coco", "price": 15.99, "stock": 15, "img": "https://i.postimg.cc/rmJ5Ffcj/crema2.png" },
-      { "variant_name": "Lavanda", "price": 15.99, "stock": 15, "img": "https://i.postimg.cc/4d5pNWZV/crema_3.png" }
+      { "variant_name": "Almendra", "price": 15.50, "stock": 22, "img": "https://i.postimg.cc/ydP0YLBn/crema1.png" },
+      { "variant_name": "Coco", "price": 15.50, "stock": 18, "img": "https://i.postimg.cc/rmJ5Ffcj/crema2.png" },
+      { "variant_name": "Lavanda", "price": 15.50, "stock": 18, "img": "https://i.postimg.cc/4d5pNWZV/crema_3.png" }
     ],
+    "price": 15.50,
+    "stock": 58,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/ydP0YLBn/crema1.png"
   },
   {
@@ -141,11 +148,13 @@
     "name": "Toalla facial",
     "short_description": "Suavidad delicada para el cuidado del rostro.",
     "long_description": "Sumá a tu rutina de cuidado un detalle que marca la diferencia. Nuestra toalla facial está confeccionada con una textura suave y delicada, pensada especialmente para acompañar la limpieza diaria del rostro sin agredir la piel. Absorbente y agradable al tacto, envuelve el momento de skincare en una sensación de confort y mimo. Ideal para secar el rostro después de la limpieza o retirar mascarillas con suavidad, convierte un gesto cotidiano en un pequeño ritual de bienestar y cuidado consciente.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Beige", "price": 7.99, "stock": 20, "img": "https://i.postimg.cc/6qpn7Cp5/toalla1.png" },
-      { "variant_name": "Blanco Roto", "price": 7.99, "stock": 15, "img": "https://i.postimg.cc/5y2LH82V/toalla2.png" }
+      { "variant_name": "Beige", "price": 7.50, "stock": 30, "img": "https://i.postimg.cc/6qpn7Cp5/toalla1.png" },
+      { "variant_name": "Blanco Roto", "price": 7.50, "stock": 25, "img": "https://i.postimg.cc/5y2LH82V/toalla2.png" }
     ],
+    "price": 7.50,
+    "stock": 55,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/6qpn7Cp5/toalla1.png"
   },
   {
@@ -153,12 +162,14 @@
     "name": "Infusión relajante",
     "short_description": "Sabores suaves para momentos de calma.",
     "long_description": "Regalate una pausa consciente con nuestras infusiones naturales, pensadas para acompañar tus momentos de descanso y conexión. Cada blend está elaborado con ingredientes seleccionados para brindar aroma, sabor y bienestar en cada taza. Ideales para crear un pequeño ritual diario, ya sea al comenzar la mañana o al cerrar el día con calma. Manzanilla, suave y reconfortante, perfecta para relajar el cuerpo y favorecer el descanso. Tila, delicada y equilibrante, ideal para aliviar tensiones y generar una sensación de serenidad. Hibiscus, vibrante y ligeramente ácido, refrescante y lleno de carácter, perfecto para quienes buscan una infusión más intensa y revitalizante.Tres opciones, tres estados de ánimo, una misma invitación: bajar el ritmo y disfrutar el momento.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Manzanilla", "price": 4.99, "stock": 20, "img": "https://i.postimg.cc/cCLwKf42/infusion1.png" },
-      { "variant_name": "Tila", "price": 4.99, "stock": 15, "img": "https://i.postimg.cc/mkgCc7gW/infusion2.png" },
-      { "variant_name": "Hibisco", "price": 4.99, "stock": 15, "img": "https://i.postimg.cc/fyRm3YTG/infusion3.png" }
+      { "variant_name": "Manzanilla", "price": 4.50, "stock": 40, "img": "https://i.postimg.cc/cCLwKf42/infusion1.png" },
+      { "variant_name": "Tila", "price": 4.50, "stock": 35, "img": "https://i.postimg.cc/mkgCc7gW/infusion2.png" },
+      { "variant_name": "Hibisco", "price": 4.50, "stock": 30, "img": "https://i.postimg.cc/fyRm3YTG/infusion3.png" }
     ],
+    "price": 4.50,
+    "stock": 105,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/fyRm3YTG/infusion3.png"
   },
   {
@@ -166,12 +177,14 @@
     "name": "Jabón artesanal",
     "short_description": "Limpieza suave con aromas delicados.",
     "long_description": "Descubrí el placer de volver a lo esencial con nuestro jabón artesanal, creado para limpiar suavemente mientras envuelve la piel en una experiencia sensorial única. Su espuma delicada respeta el equilibrio natural, dejando una sensación de frescura, suavidad y bienestar desde el primer uso. Ideal para quienes buscan transformar un gesto cotidiano en un pequeño ritual de cuidado consciente. Elegí la versión que mejor acompañe tu energía: marfil, neutra y atemporal, perfecta para una limpieza suave y clásica; rosa, delicada y femenina, con un aroma sutil que invita a la calma; y lavanda, relajante y armonizante, ideal para cerrar el día con una sensación de paz. Tres formas de convertir tu rutina diaria en un momento especial que mima tu piel y tus sentidos.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Marfil", "price": 5.99, "stock": 20, "img": "https://i.postimg.cc/Y0CY4Qqs/jabon1.png" },
-      { "variant_name": "Rosa Suave", "price": 5.99, "stock": 15, "img": "https://i.postimg.cc/90QZ4yFx/jabon2.png" },
-      { "variant_name": "Lavanda", "price": 5.99, "stock": 15, "img": "https://i.postimg.cc/gj28w3k4/jabon3.png" }
+      { "variant_name": "Marfil", "price": 5.50, "stock": 30, "img": "https://i.postimg.cc/Y0CY4Qqs/jabon1.png" },
+      { "variant_name": "Rosa Suave", "price": 5.50, "stock": 25, "img": "https://i.postimg.cc/90QZ4yFx/jabon2.png" },
+      { "variant_name": "Lavanda", "price": 5.50, "stock": 25, "img": "https://i.postimg.cc/gj28w3k4/jabon3.png" }
     ],
+    "price": 5.50,
+    "stock": 80,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/Y0CY4Qqs/jabon1.png"
   },
   {
@@ -179,25 +192,29 @@
     "name": "Exfoliante corporal",
     "short_description": "Renovación suave para una piel luminosa.",
     "long_description": "Transformá tu ducha en un ritual revitalizante con nuestro exfoliante corporal, diseñado para renovar la piel y despertar los sentidos. Su textura granulada elimina suavemente las células muertas, dejando la piel más lisa, luminosa y preparada para absorber mejor la hidratación. Ideal para incorporar a tu rutina semanal de autocuidado y regalarte un momento de conexión y bienestar. Elegí la experiencia que más te inspire: café, estimulante y energizante, perfecto para activar la piel y aportar sensación de firmeza; coco, suave y nutritivo, ideal para una exfoliación delicada con un aroma cálido y tropical; y lavanda, calmante y equilibrante, pensada para relajar cuerpo y mente mientras renueva la piel. Tres variantes para convertir el cuidado corporal en un auténtico momento de spa en casa.",
-    "category": "Cuidado",
     "variants": [
-      { "variant_name": "Cafe", "price": 13.99, "stock": 15, "img": "https://i.postimg.cc/Kj8BKtvf/exfoliante1.png" },
-      { "variant_name": "Coco", "price": 13.99, "stock": 15, "img": "https://i.postimg.cc/mDw72mRX/exfoliante2.png" },
-      { "variant_name": "Lavanda", "price": 13.99, "stock": 15, "img": "https://i.postimg.cc/XJ897s3s/exfoliante3.png" }
+      { "variant_name": "Cafe", "price": 13.50, "stock": 20, "img": "https://i.postimg.cc/Kj8BKtvf/exfoliante1.png" },
+      { "variant_name": "Coco", "price": 13.50, "stock": 18, "img": "https://i.postimg.cc/mDw72mRX/exfoliante2.png" },
+      { "variant_name": "Lavanda", "price": 13.50, "stock": 17, "img": "https://i.postimg.cc/XJ897s3s/exfoliante3.png" }
     ],
+    "price": 13.50,
+    "stock": 55,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/XJ897s3s/exfoliante3.png"
   },
   {
     "id": "014",
     "name": "Mascarilla facial",
     "short_description": "Frescura e hidratación para tu rostro.",
-    "long_description": "Regalate un momento de cuidado profundo y conexión con tu piel. Nuestra mascarilla facial está diseñada para nutrir, suavizar y revitalizar el rostro mientras disfrutás de una pausa consciente en tu rutina. Su textura envolvente actúa delicadamente, ayudando a mejorar la luminosidad y dejando la piel con una sensación fresca, equilibrada y renovada.Podés elegir la variante que mejor acompañe tu momento: agua de rosas, ideal para hidratar y aportar luminosidad suave; lavanda, perfecta para calmar la piel y brindar una sensación relajante; y miel, nutritiva y reconfortante, pensada para dejar el rostro más suave y flexible. Tres experiencias distintas para convertir el cuidado facial en un auténtico ritual de bienestar.",
-    "category": "Cuidado",
+    "long_description": "Regalate un momento de cuidado profundo y conexión con tu piel. Nuestra mascarilla facial está diseñada para nutrir, suavizar y revitalizar el rostro mientras disfrutás de una pausa consciente en tu rutina. Su textura envolvente actúa delicadamente, ayudando a mejorar la luminosidad y dejando la piel con una sensación fresca, equilibrada y renovada. Podés elegir la variante que mejor acompañe tu momento: agua de rosas, ideal para hidratar y aportar luminosidad suave; lavanda, perfecta para calmar la piel y brindar una sensación relajante; y miel, nutritiva y reconfortante, pensada para dejar el rostro más suave y flexible. Tres experiencias distintas para convertir el cuidado facial en un auténtico ritual de bienestar.",
     "variants": [
-      { "variant_name": "Agua de Rosas", "price": 11.99, "stock": 15, "img": "https://i.postimg.cc/3R7gTsMp/mascarilla1.png" },
-      { "variant_name": "Lavanda", "price": 11.99, "stock": 15, "img": "https://i.postimg.cc/Hx2bs6Hy/mascarilla2.png" },
-      { "variant_name": "Miel", "price": 11.99, "stock": 15, "img": "https://i.postimg.cc/9MVGh63Z/mascarilla3.png" }
+      { "variant_name": "Agua de Rosas", "price": 11.50, "stock": 20, "img": "https://i.postimg.cc/3R7gTsMp/mascarilla1.png" },
+      { "variant_name": "Lavanda", "price": 11.50, "stock": 18, "img": "https://i.postimg.cc/Hx2bs6Hy/mascarilla2.png" },
+      { "variant_name": "Miel", "price": 11.50, "stock": 17, "img": "https://i.postimg.cc/9MVGh63Z/mascarilla3.png" }
     ],
+    "price": 11.50,
+    "stock": 55,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/3R7gTsMp/mascarilla1.png"
   },
   {
@@ -205,8 +222,10 @@
     "name": "Sérum facial",
     "short_description": "Luminosidad y nutrición concentrada.",
     "long_description": "Un gesto ligero que transforma por completo tu rutina facial. Nuestro sérum está formulado para aportar hidratación profunda y luminosidad inmediata, ayudando a que la piel se vea más fresca, uniforme y revitalizada desde las primeras aplicaciones. Su textura liviana y de rápida absorción lo convierte en el paso ideal antes de la crema, potenciando sus efectos y dejando una sensación sedosa y confortable. Perfecto para quienes buscan un cuidado efectivo sin complicaciones, este sérum acompaña tu piel en el día a día, devolviéndole equilibrio, suavidad y ese brillo natural que nace del bienestar.",
-    "category": "Cuidado",
     "variants": null,
+    "price": 19.90,
+    "stock": 50,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/mDRQsvxQ/serum.png"
   },
   {
@@ -214,8 +233,10 @@
     "name": "Bálsamo labial",
     "short_description": "Hidratación suave para labios cuidados.",
     "long_description": "Bálsamo labial ideal para proteger e hidratar los labios con aromas delicados.",
-    "category": "Cuidado",
     "variants": null,
+    "price": 6.50,
+    "stock": 60,
+    "category": "Cuidado",
     "img": "https://i.postimg.cc/V61j8xyP/balsamo.png"
   },
   {
@@ -223,21 +244,25 @@
     "name": "Vincha spa",
     "short_description": "Comodidad para tu rutina de cuidado facial.",
     "long_description": "Vincha ideal para acompañar tu rutina de skincare y mantener el cabello recogido.",
-    "category": "Accesorios",
     "variants": null,
+    "price": 8.50,
+    "stock": 40,
+    "category": "Accesorios",
     "img": "https://i.postimg.cc/SsqWhB0q/vincha.png"
   },
   {
     "id": "018",
     "name": "Vela aromática",
-    "short_description": "Luz cálida y aromas envolventes.",
-    "long_description": "Nuestras velas aromáticas están pensadas para crear atmósferas que invitan a bajar el ritmo, conectar con los sentidos y transformar cualquier espacio en un refugio personal. Elaboradas para acompañar rituales de descanso, momentos de lectura o instantes de autocuidado su luz cálida y su aroma envolvente generan una sensación inmediata de calma y bienestar. Cada variante ofrece una experiencia distinta: lavanda, ideal para relajar la mente y favorecer el descanso; vainilla, cálida y reconfortante, perfecta para crear ambientes acogedores; y cítricos, fresca y energizante, pensada para revitalizar los sentidos y renovar el ánimo. Un detalle esencial para sumar intención, armonía y equilibrio emocional al día a día.",
-    "category": "Velas y Aromas",
+    "short_description": "Luz cálida y aromas envolventes para que cada momento sea único.",
+    "long_description": "Nuestras velas aromáticas están pensadas para crear atmósferas que invitan a bajar el ritmo, conectar con los sentidos y transformar cualquier espacio en un refugio personal. Elaboradas para acompañar rituales de descanso, momentos de lectura o instantes de autocuidado, su luz cálida y su aroma envolvente generan una sensación inmediata de calma y bienestar. Cada variante ofrece una experiencia distinta: lavanda, ideal para relajar la mente y favorecer el descanso; vainilla, cálida y reconfortante, perfecta para crear ambientes acogedores; y cítricos, fresca y energizante, pensada para revitalizar los sentidos y renovar el ánimo. Un detalle esencial para sumar intención, armonía y equilibrio emocional al día a día.",
     "variants": [
-      { "variant_name": "Lavanda", "price": 16.99, "stock": 15, "img": "https://i.postimg.cc/vT295D44/vela1.png" },
-      { "variant_name": "Vainilla", "price": 16.99, "stock": 15, "img": "https://i.postimg.cc/GtgYv948/vela2.png" },
-      { "variant_name": "Jazmín", "price": 16.99, "stock": 15, "img": "https://i.postimg.cc/nrS7qMXM/vela3.png" }
+      { "variant_name": "Lavanda", "price": 16.50, "stock": 20, "img": "https://i.postimg.cc/vT295D44/vela1.png" },
+      { "variant_name": "Vainilla", "price": 16.50, "stock": 18, "img": "https://i.postimg.cc/GtgYv948/vela2.png" },
+      { "variant_name": "Jazmín", "price": 16.50, "stock": 17, "img": "https://i.postimg.cc/nrS7qMXM/vela3.png" }
     ],
+    "price": 16.50,
+    "stock": 55,
+    "category": "Velas y Aromas",
     "img": "https://i.postimg.cc/GtgYv948/vela2.png"
   },
   {
@@ -245,26 +270,32 @@
     "name": "Sahumerios",
     "short_description": "Aromas que armonizan el ambiente.",
     "long_description": "Encendé una pausa consciente y dejá que el aroma transforme el ambiente. Nuestros sahumerios están pensados para acompañar momentos de relajación, meditación o simplemente para crear una atmósfera cálida y armoniosa en el día a día. Su fragancia suave y envolvente ayuda a limpiar energías, calmar la mente y generar una sensación de bienestar inmediato. Ideales para rituales de autocuidado, prácticas de yoga o para regalarse un instante de calma en medio del ritmo cotidiano, los sahumerios convierten cualquier espacio en un refugio de serenidad y conexión interior.",
-    "category": "Velas y Aromas",
     "variants": null,
+    "price": 7.90,
+    "stock": 50,
+    "category": "Velas y Aromas",
     "img": "https://i.postimg.cc/4d5pNWZp/sahumerio.png"
   },
   {
     "id": "020",
     "name": "Rodillo facial",
-    "short_description": "Masaje facial relajante.",
+    "short_description": "Masaje facial relajante con toda la energía del jade",
     "long_description": "Incorporá a tu rutina diaria un gesto de belleza consciente inspirado en rituales milenarios. El rodillo facial de jade es ideal para masajear el rostro de manera suave, ayudando a desinflamar, estimular la circulación y favorecer el drenaje linfático. Su uso regular aporta una sensación inmediata de frescura y bienestar, mientras ayuda a relajar la tensión facial y potenciar la absorción de sérums y cremas. Un complemento perfecto para transformar el cuidado facial en un momento de conexión, calma y autocuidado, tanto de día como de noche.",
-    "category": "Accesorios",
     "variants": null,
+    "price": 22.90,
+    "stock": 35,
+    "category": "Accesorios",
     "img": "https://i.postimg.cc/j5KzbpVJ/rodillo.png"
   },
   {
     "id": "021",
     "name": "Antifaz para dormir",
-    "short_description": "Descanso profundo y reparador.",
+    "short_description": "Descanso profundo y reparador, porque la pausa también importa.",
     "long_description": "Regalate un momento de pausa real y desconexión total. Nuestro antifaz para dormir está diseñado para bloquear la luz y crear un entorno de descanso ideal, ayudando a conciliar el sueño más rápido y mejorar su calidad. Su textura suave y agradable al contacto con la piel lo hace perfecto para usar tanto de noche como en momentos de relax, siestas o rituales de autocuidado. Ideal para acompañar rutinas de bienestar, viajes o simplemente para esos instantes en los que necesitás bajar el ritmo y entregarte al descanso sin interrupciones.",
-    "category": "Accesorios",
     "variants": null,
+    "price": 12.50,
+    "stock": 45,
+    "category": "Accesorios",
     "img": "https://i.postimg.cc/cHZQSpq0/antifaz.png"
   },
   {
@@ -272,8 +303,10 @@
     "name": "Tarjeta con mensaje",
     "short_description": "Un detalle que acompaña la experiencia.",
     "long_description": "Tarjeta con mensaje inspirador pensada para sumar un gesto emocional a cada box.",
-    "category": "Extra",
     "variants": null,
+    "price": 2.50,
+    "stock": 100,
+    "category": "Extra",
     "img": "https://placehold.co/400"
   },
   {
@@ -281,8 +314,10 @@
     "name": "Chocolate artesanal",
     "short_description": "Un mimo dulce para disfrutar el momento.",
     "long_description": "Chocolate artesanal incluido como detalle especial para acompañar tu ritual de bienestar.",
-    "category": "Extra",
     "variants": null,
+    "price": 3.90,
+    "stock": 80,
+    "category": "Extra",
     "img": "https://placehold.co/400"
   },
   {
@@ -290,31 +325,32 @@
     "name": "Flor seca decorativa",
     "short_description": "Un detalle visual y delicado.",
     "long_description": "Flor seca decorativa que suma calidez y estética a la experiencia.",
-    "category": "Extra",
     "variants": null,
+    "price": 4.50,
+    "stock": 50,
+    "category": "Extra",
     "img": "https://placehold.co/400"
   },
   {
-  "id": "026",
-  "name": "Esponja vegetal",
-  "short_description": "Exfoliación natural y consciente para la rutina diaria.",
-  "long_description": "Sumá a tu rutina de cuidado corporal un gesto simple, natural y efectivo. Nuestra esponja vegetal está elaborada a partir de fibras 100% naturales, ideales para exfoliar la piel de manera suave pero profunda, eliminando células muertas y estimulando la circulación. Su textura ayuda a dejar la piel más lisa, luminosa y preparada para absorber mejor cremas y aceites corporales. Reutilizable, biodegradable y pensada para quienes buscan cuidarse sin descuidar el planeta, es el complemento perfecto para transformar la ducha en un pequeño ritual de bienestar consciente.",
-  "price": 4.90,
-  "stock": 120,
-  "category": "accesorios",
-  "img": "https://i.postimg.cc/76VSYKDg/esponja.png",
-  "variants": null
-},
-
-{
+    "id": "026",
+    "name": "Esponja vegetal",
+    "short_description": "Exfoliación natural y consciente para la rutina diaria.",
+    "long_description": "Sumá a tu rutina de cuidado corporal un gesto simple, natural y efectivo. Nuestra esponja vegetal está elaborada a partir de fibras 100% naturales, ideales para exfoliar la piel de manera suave pero profunda, eliminando células muertas y estimulando la circulación. Su textura ayuda a dejar la piel más lisa, luminosa y preparada para absorber mejor cremas y aceites corporales. Reutilizable, biodegradable y pensada para quienes buscan cuidarse sin descuidar el planeta, es el complemento perfecto para transformar la ducha en un pequeño ritual de bienestar consciente.",
+    "variants": null,
+    "price": 4.90,
+    "stock": 120,
+    "category": "Accesorios",
+    "img": "https://i.postimg.cc/76VSYKDg/esponja.png"
+  },
+  {
     "id": "027",
     "name": "Cuaderno",
     "short_description": "Un espacio donde plasmar tu esencia",
     "long_description": "Más que un simple cuaderno, un compañero donde poder volcar todos aquellos sueños que iluminan tu alma. Un espacio de calma es un espacio de manifestación sincera y orientada. Y una página en blanco puede ser el comienzo de todo, atrevete a comenzar tu historia",
-    "category": "Extra",
     "variants": null,
+    "price": 6.90,
+    "stock": 70,
+    "category": "Extra",
     "img": "https://placehold.co/400"
   }
-
-
 ]
