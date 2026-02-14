@@ -6,6 +6,9 @@ import ItemCount from './ItemCount';
 import '../assets/styles/ItemDetail.css'
 
 const ItemDetail = ({prodDetail}) => {
+    if (!prodDetail || !prodDetail.img) {
+    return null
+  }
   return (
     <div className='item-render'>
     <div className='item-img'>
@@ -14,12 +17,14 @@ const ItemDetail = ({prodDetail}) => {
     <div className='item-info'>
         <h1>{prodDetail.name}</h1>
         <p>{prodDetail.long_description}</p>
-        <h3>{prodDetail?.price?.toFixed(2)} €</h3>
         {prodDetail.variants?<select name="" id="">{prodDetail?.variants?.map((variant,index)=>(
             <option key={index} value={variant.variant_name}>{variant.variant_name}</option>))}
         </select>:''}
-        <ItemCount/>
-        <button className='card-button' variant="primary" >Agregar al carrito</button>
+        <div style={{display: 'flex', justifyContent:'space-between'}}>
+            <h3>{prodDetail?.price?.toFixed(2)} €</h3>
+            <ItemCount/>
+            <button className='btn card-button' variant="primary" >Agregar al carrito</button>
+        </div>
     </div>
     </div>
         

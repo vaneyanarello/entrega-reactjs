@@ -18,8 +18,6 @@ function App() {
         <Route path='/category/:type' element={<ItemListContainer mensaje='Categorias'/>}/>
         <Route path='/item/:id' element={<ItemDetailContainer/>}/>
         <Route path='*' element={<Error/>}/>
-      {/* <ItemListContainer mensaje='Bienvenida a tu momento de calma. Tu refugio de tranquilidad y cuidado personal te espera.🌿'/> */}
-      {/* <ItemDetailContainer/> */}
       </Routes>
       <Footer/>
     </BrowserRouter>

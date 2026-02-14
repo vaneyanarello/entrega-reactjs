@@ -10,15 +10,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = ()=>{
     return(
-        // <nav className='nav-container'>
-        //     <a className='enlace' href="">
-        //         <img className='logo' src='../public/logo.png' alt="logo" />
-        //     </a>
-        //     <a className='enlace' href="">Productos</a>
-        //     <a className='enlace' href="">Sale</a>
-        //     <a className='enlace' href="">Contacto</a>
-        //     <CartWidget/>
-        // </nav>
+        
         <Navbar expand="lg" className="navbar-custom" sticky="top">
       <Container fluid>
          <Navbar.Brand as={NavLink} to='/'><img className='logo' src='https://i.postimg.cc/pTJtdxzT/logo.png' alt="logo" /></Navbar.Brand>
