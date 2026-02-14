@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
 import '../assets/styles/Item.css'
+import { Link } from 'react-router-dom'
 
 const Item = ({prod}) => {
   return (
@@ -12,8 +13,9 @@ const Item = ({prod}) => {
         <Card.Text>
           {prod.short_description} 
         </Card.Text>
-          <p>{prod.price} €</p>
-        <Button className='card-button' variant="primary">Agregar al carrito</Button>
+          <p>{prod?.price?.toFixed(2)} €</p>
+        <Link className='card-button btn' variant='primary' to={'/item/'+prod.id}>Ver más</Link>
+        {/* <Button className='card-button' variant="primary">Ver más</Button> */}
       </Card.Body>
     </Card>
     </div>

@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = ()=>{
     return(
@@ -20,8 +21,8 @@ const NavBar = ()=>{
         // </nav>
         <Navbar expand="lg" className="navbar-custom" sticky="top">
       <Container fluid>
-         <img className='logo' src='https://i.postimg.cc/pTJtdxzT/logo.png' alt="logo" />
-        <Navbar.Brand href="#">Home Spa</Navbar.Brand>
+         <Navbar.Brand as={NavLink} to='/'><img className='logo' src='https://i.postimg.cc/pTJtdxzT/logo.png' alt="logo" /></Navbar.Brand>
+        <Navbar.Brand as={NavLink} to='/'>Home Spa</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -29,26 +30,26 @@ const NavBar = ()=>{
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Inicio</Nav.Link>
-            <Nav.Link href="#action2">Box</Nav.Link>
+            <Nav.Link as={NavLink} to='/'>Inicio</Nav.Link>
+            <Nav.Link as={NavLink} to='/category/Box'>Box</Nav.Link>
             <NavDropdown title="Categorías" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Cuidado</NavDropdown.Item>                
+              <NavDropdown.Item as={NavLink} to='/category/Cuidado'>Cuidado</NavDropdown.Item>                
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item as={NavLink} to='/category/Velas y Aromas'>
                 Velas y Aromas
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item as={NavLink} to='/category/Accesorios'>
                 Accesorios
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
+              <NavDropdown.Item as={NavLink} to='/category/Box'>
                 Box
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" >
+            {/* <Nav.Link has={NavLink} to='/contacto' >
               Contacto
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
           {/* <Form className="d-flex">
             <Form.Control

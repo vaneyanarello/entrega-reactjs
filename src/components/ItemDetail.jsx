@@ -14,13 +14,10 @@ const ItemDetail = ({prodDetail}) => {
     <div className='item-info'>
         <h1>{prodDetail.name}</h1>
         <p>{prodDetail.long_description}</p>
-        <h3>{prodDetail.price.toFixed(2)} €</h3>
-        <select name="" id="">{prodDetail?.variants?.map((variant,index)=>(
-            <option key={index} value={variant.variant_name}>{variant.variant_name}</option>,
-            <option key={index} value={variant.variant_name}>{variant.variant_name}</option>,
-            <option key={index} value={variant.variant_name}>{variant.variant_name}</option>,
+        <h3>{prodDetail?.price?.toFixed(2)} €</h3>
+        {prodDetail.variants?<select name="" id="">{prodDetail?.variants?.map((variant,index)=>(
             <option key={index} value={variant.variant_name}>{variant.variant_name}</option>))}
-        </select>
+        </select>:''}
         <ItemCount/>
         <button className='card-button' variant="primary" >Agregar al carrito</button>
     </div>
