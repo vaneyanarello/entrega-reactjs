@@ -1,11 +1,11 @@
 import {useState} from 'react'
 
-const ItemCount = (props) => {
+const ItemCount = ({stock}) => {
     
     const [count, setCount]=useState(1)
 
     const sumar = ()=>{
-        if(count < props.stock){
+        if(count < stock){
             setCount(count + 1)
         }
     }

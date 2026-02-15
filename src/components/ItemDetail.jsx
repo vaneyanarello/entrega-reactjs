@@ -22,7 +22,7 @@ const ItemDetail = ({prodDetail}) => {
         </select>:''}
         <div style={{display: 'flex', justifyContent:'space-between'}}>
             <h3>{prodDetail?.price?.toFixed(2)} €</h3>
-            <ItemCount/>
+            <ItemCount stock={prodDetail.stock}/>
             <button className='btn card-button' variant="primary" >Agregar al carrito</button>
         </div>
     </div>
