@@ -35,3 +35,7 @@
     letter-spacing: 1px;
     font-family: 'Playfair Display', serif;
 }
+
+.dropdown-item.active{
+    background-color: #ecd6c7;
+}

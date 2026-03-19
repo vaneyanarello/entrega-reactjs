@@ -4,11 +4,23 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ItemCount from './ItemCount';
 import '../assets/styles/ItemDetail.css'
+import { useContext } from 'react';
+import { CartContext } from '../context/CartContext';
+
 
 const ItemDetail = ({prodDetail}) => {
+
+const {cart} = useContext(CartContext)
+    
+    const onAdd = (cantidad)=> {
+        alert(`Agregaste al carrito ${cantidad} unidades del producto ${prodDetail.name}`)
+    }
+    
+
     if (!prodDetail || !prodDetail.img) {
     return null
   }
+
   return (
     <div className='item-render'>
     <div className='item-img'>
@@ -22,8 +34,7 @@ const ItemDetail = ({prodDetail}) => {
         </select>:''}
         <div style={{display: 'flex', justifyContent:'space-between'}}>
             <h3>{prodDetail?.price?.toFixed(2)} €</h3>
-            <ItemCount stock={prodDetail.stock}/>
-            <button className='btn card-button' variant="primary" >Agregar al carrito</button>
+            <ItemCount stock={prodDetail.stock} onAdd={onAdd}/>
         </div>
     </div>
     </div>

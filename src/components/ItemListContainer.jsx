@@ -3,6 +3,7 @@ import '../assets/styles/ItemListContainer.css'
 import { getProducts } from '../mock/asyncData'
 import ItemList from './ItemList'
 import { useParams } from 'react-router-dom'
+import Input from './Input'
 
 const ItemListContainer = (props) =>{
 
@@ -25,6 +26,7 @@ const ItemListContainer = (props) =>{
     return(
         <div>
             <h1 className='mensaje-inicio'>{props.mensaje}{type && <span>{type}</span> }</h1>
+            <Input/>
             <ItemList data={data}/>
         </div>
     )
