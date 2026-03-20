@@ -1,4 +1,6 @@
+import { Button } from 'react-bootstrap';
 import productos from './products.json'
+import { Link } from 'react-router-dom';
 
 let error = false;
 
@@ -25,4 +27,17 @@ export const getOneProduct = (id) => {
             }
         },2000);
     })
+}
+
+export const getProductsByCategory = (category) => {
+    return new Promise ((resolve, reject)=>{
+        setTimeout(()=>{
+            if(error){
+                reject('Ocurrió un error')
+            } else {
+                let prodCat = productos.filter((pr) => (pr.category === category))
+                resolve(prodCat)
+            }
+        },1000)
+    });
 }

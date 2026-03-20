@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Error from './components/Error'
 import { CartProvider } from './context/CartContext'
+import CartContainer from './components/CartContainer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<ItemListContainer mensaje='Bienvenida a tu momento de calma. Tu refugio de tranquilidad y cuidado personal te espera.🌿'/>}/>
         <Route path='/category/:type' element={<ItemListContainer mensaje='Categorias'/>}/>
         <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+        <Route path='/cart' element={<CartContainer/>}/>
         <Route path='*' element={<Error/>}/>
       </Routes>
       </CartProvider>

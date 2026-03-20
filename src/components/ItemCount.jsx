@@ -21,13 +21,25 @@ const ItemCount = (props) => {
     }
 
     return(
-        <div>
-            <button className='btn card-button' onClick={restar}> - </button>
-            <span>{count}</span>
-            <button className='btn card-button' onClick={sumar}> + </button>
-            <button className='btn card-button' variant="primary" onClick={shop} disabled={count === 0 || stock === 0}>Agregar al carrito</button>
-        </div>        
-    )
+        <>
+        {
+            props.stock > 0
+            ?        
+        <div style={{display: 'flex', justifyContent:'center', gap:'15px'}}>
+            <div><button className='btn' onClick={restar} style={{border: '1px solid #946343'}}> - </button>
+            <span> {count} </span>
+            <button className='btn' onClick={sumar} style={{border: '1px solid #946343'}}> + </button>
+            </div>
+            <div>
+                <button className='btn card-button' variant="primary" onClick={shop} disabled={count === 0 || props.stock === 0}>
+                    Agregar al carrito
+                </button>
+            </div>
+        </div>
+        :<p>Producto sin stock</p>
+        }
+        </>
+)
 }
 
 export default ItemCount

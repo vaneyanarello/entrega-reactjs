@@ -41,6 +41,15 @@ export const CartProvider = ({children}) => {
         return cart.some((prod)=> prod.id === id && prod.variant === variant) 
     }
 
+    const itemQty = (id)=> {
+        const itemIn = cart.find((prod)=> prod.id === id)
+        if (itemIn){
+            return itemIn.quantity
+        } else {
+            return 0
+        }
+    }
+
 
 
 
@@ -50,7 +59,7 @@ export const CartProvider = ({children}) => {
 
     return(
         //aca le digo que es el proveedor de cartContext
-        <CartContext.Provider value={{cart, addItem, clear, removeItem, isInCart}}> 
+        <CartContext.Provider value={{cart, addItem, clear, removeItem, isInCart, itemQty}}> 
             {children}
         </CartContext.Provider>
     )
