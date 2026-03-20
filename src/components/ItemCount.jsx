@@ -25,7 +25,7 @@ const ItemCount = (props) => {
             <button className='btn card-button' onClick={restar}> - </button>
             <span>{count}</span>
             <button className='btn card-button' onClick={sumar}> + </button>
-            <button className='btn card-button' variant="primary" onClick={shop} >Agregar al carrito</button>
+            <button className='btn card-button' variant="primary" onClick={shop} disabled={count === 0 || stock === 0}>Agregar al carrito</button>
         </div>        
     )
 }
