@@ -7,13 +7,6 @@
     "price": 49.99,
     "stock": 20,
     "category": "Box",
-    "slots": [
-      { "product_id": "007", "selected_variant": "Blanco Clásico" },
-      { "product_id": "010", "selected_variant": "Beige" },
-      { "product_id": "006", "selected_variant": "Lavanda" },
-      { "product_id": "011", "selected_variant": "Tila" },
-      { "product_id": "018", "selected_variant": "Vainilla" }
-    ],
     "img": "https://i.postimg.cc/PJVZ1NCb/box1.png"
   },
   {
@@ -24,13 +17,6 @@
     "price": 54.99,
     "stock": 20,
     "category": "Box",
-    "slots": [
-      { "product_id": "009", "selected_variant": "Coco" },
-      { "product_id": "012", "selected_variant": "Marfil" },
-      { "product_id": "013", "selected_variant": "Cafe" },
-      { "product_id": "019", "selected_variant": null },
-      { "product_id": "026", "selected_variant": null}
-    ],
     "img": "https://i.postimg.cc/brVb1dZ1/box2.png"
   },
   {
@@ -41,13 +27,6 @@
     "price": 59.99,
     "stock": 20,
     "category": "Box",
-    "slots": [
-      { "product_id": "014", "selected_variant": "Miel" },
-      { "product_id": "015", "selected_variant": null },
-      { "product_id": "016", "selected_variant": null },
-      { "product_id": "017", "selected_variant": null },
-      { "product_id": "020", "selected_variant": null }
-    ],
     "img": "https://i.postimg.cc/QNfc2Y0y/box3.png"
   },
   {
@@ -58,13 +37,6 @@
     "price": 62.99,
     "stock": 20,
     "category": "Box",
-    "slots": [
-      { "product_id": "018", "selected_variant": "Jazmín" },
-      { "product_id": "011", "selected_variant": "Hibisco" },
-      { "product_id": "006", "selected_variant": "Coco" },
-      { "product_id": "021", "selected_variant": null },
-      { "product_id": "027", "selected_variant": null }
-    ],
     "img": "https://i.postimg.cc/RhpfwqWR/box4.png"
   },
   {
@@ -75,13 +47,6 @@
     "price": 69.99,
     "stock": 20,
     "category": "Box",
-    "slots": [
-      { "product_id": "010", "selected_variant": "Beige" },
-      { "product_id": "008", "selected_variant": "Karité" },
-      { "product_id": "023", "selected_variant": null },
-      { "product_id": "018", "selected_variant": "Lavanda" },
-      { "product_id": "024", "selected_variant": null }
-    ],
     "img": "https://i.postimg.cc/6qbRCT8R/box5.png"
   },
   {
