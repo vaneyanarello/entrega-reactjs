@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import '../assets/styles/ItemListContainer.css'
 // import { getProducts } from '../mock/asyncData'
 import ItemList from './ItemList'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import Loader from './Loader'
 import { addDoc, collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../service/firebase'
@@ -70,6 +70,18 @@ const ItemListContainer = (props) =>{
             :
             <div>
                 <h1 className='mensaje-inicio'>{props.mensaje}{type && <span>{type}</span> }</h1>
+                 {data.length === 0 
+                 ? (
+                    <>
+                    <p style={{textAlign: 'center', marginTop: '2rem'}}>
+                    No se encontraron productos para esta categoría.
+                    </p>
+                    <Link className='btn card-button' to='/'>Volver al Inicio</Link>
+                    </>
+                ) : (
+                <div style={{display:'flex', justifyContent:'center', padding:'3rem'}}>
+                    <ItemList data={data} />
+                </div>)}
                 <div style={{display:'flex', justifyContent:'center', padding:'3rem'}}><ItemList data={data}/></div>
                 {/* <button onClick={subirProd}>SUBIR DATA</button> */}
 
