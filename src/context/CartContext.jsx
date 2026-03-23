@@ -41,14 +41,24 @@ export const CartProvider = ({children}) => {
         return cart.some((prod)=> prod.id === id && prod.variant === variant) 
     }
 
-    const itemQty = (id)=> {
-        const itemIn = cart.find((prod)=> prod.id === id)
+    const itemQty = (id, variant)=> {
+        const itemIn = cart.find((prod)=> prod.id === id && prod.variant === (variant || ""))
         if (itemIn){
-            return itemIn.quantity
+                return itemIn.quantity
         } else {
             return 0
         }
     }
+
+    const totalQty = () => {
+        return cart.reduce((acc, prod)=> acc += prod.quantity,0)
+    }
+
+    const total = () =>{
+        return cart.reduce((acc,prod)=> acc += (prod.quantity * prod.price),0)
+    }
+
+    
 
 
 
@@ -59,7 +69,7 @@ export const CartProvider = ({children}) => {
 
     return(
         //aca le digo que es el proveedor de cartContext
-        <CartContext.Provider value={{cart, addItem, clear, removeItem, isInCart, itemQty}}> 
+        <CartContext.Provider value={{cart, addItem, clear, removeItem, isInCart, itemQty, total, totalQty}}> 
             {children}
         </CartContext.Provider>
     )

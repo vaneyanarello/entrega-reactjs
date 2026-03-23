@@ -39,3 +39,17 @@
 .dropdown-item.active{
     background-color: #ecd6c7;
 }
+
+.dropdown-item:active {
+    background-color: inherit;
+    color: inherit; 
+}
+
+.navbar-custom .nav-link.active{
+    color: rgb(255, 255, 255) !important;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navbar-custom .dropdown.show > .nav-link {
+    color: #ffffff !important;
+}

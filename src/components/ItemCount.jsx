@@ -18,6 +18,7 @@ const ItemCount = (props) => {
 
     const shop = ()=> {
         props.onAdd(count)
+        setCount(0)
     }
 
     return(

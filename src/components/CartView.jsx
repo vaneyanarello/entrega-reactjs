@@ -1,14 +1,16 @@
 import React, { useContext } from 'react'
 import { TiTrash } from "react-icons/ti";
 import { CartContext } from '../context/CartContext'
+import { Link } from 'react-router-dom';
 
 const CartView = () => {
     
-    const {cart, removeItem, clear} = useContext(CartContext)
+    const {cart, removeItem, clear, total} = useContext(CartContext)
 
   return (
     <div>
-      <h1>Tu carrito</h1>
+      <h1 style={{  color:'#946343'
+}}>Tu carrito</h1>
       <div>
         {
             cart.map((compra)=> (
@@ -23,13 +25,16 @@ const CartView = () => {
             ))
         }
       </div>
-      <span>Total a pagar: xx,xx €</span>
+      <span>Total a pagar: {total()} €</span>
       <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', width:'80%', padding:'2rem'}}>
         <button className='btn card-button' onClick={clear}>Vaciar Carrito</button>
-        <button className='btn card-button'>Terminar compra</button>
+        <Link className='btn card-button' to='/checkout'>Terminar compra</Link>
     </div>
     </div>
   )
 }
 
 export default CartView
+
+
+

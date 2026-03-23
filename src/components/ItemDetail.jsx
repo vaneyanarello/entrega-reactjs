@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Container from 'react-bootstrap/Container';
 import ItemCount from './ItemCount';
 import '../assets/styles/ItemDetail.css'
 import { useContext } from 'react';
@@ -14,13 +15,19 @@ const ItemDetail = ({prodDetail}) => {
     console.log(cart)
     
     const [selectedVariant, setSelectedVariant] = useState()
+    // useEffect(()=>{
+    //     if(prodDetail?.variants?.length){setSelectedVariant(prodDetail.variants[0].variant_name)}
+    // }, [prodDetail])
+
     useEffect(()=>{
-        if(prodDetail?.variants?.length){setSelectedVariant(prodDetail.variants[0].variant_name)}
-    }, [prodDetail])
+        if(prodDetail?.variants?.length){
+            setSelectedVariant(prodDetail.variants[0].variant_name)
+        }else {setSelectedVariant("")}
+    } , [prodDetail])
     
     const onAdd = (cantidad)=> {
         //alert(`Agregaste al carrito ${cantidad} unidades del producto ${prodDetail.name}`)
-        addItem(prodDetail, cantidad, selectedVariant)
+        addItem(prodDetail, cantidad, selectedVariant || "")
         setPurchase(true)
     }
     
@@ -31,7 +38,10 @@ const ItemDetail = ({prodDetail}) => {
 
 console.log('estado de variante',selectedVariant)
 
-const stockActualizado = prodDetail.stock - itemQty(prodDetail.id)
+// const stockActualizado = prodDetail.stock - itemQty(prodDetail.id)
+const stockActualizado = selectedVariant
+    ? prodDetail.variants.find(v => v.variant_name === selectedVariant).stock - itemQty(prodDetail.id, selectedVariant)
+    : prodDetail.stock - itemQty(prodDetail.id)
 
   return (
     <div className='item-render'>
@@ -55,7 +65,7 @@ const stockActualizado = prodDetail.stock - itemQty(prodDetail.id)
                     <div style={{display:'flex', justifyContent:'center', gap:'10px'}}><ItemCount stock={stockActualizado} onAdd={onAdd}/>
                     </div>
                     <div style={{display:'flex', justifyContent:'center', gap:'10px', alignItems:'center'}}>
-                        <span> Cantidad en carrito: {itemQty(prodDetail.id)}</span>
+                        <span> Cantidad en carrito: {itemQty(prodDetail.id, selectedVariant)}</span>
                     </div>    
                         <Link className='btn' to='/cart' style={{color:'#946343',   border: '1px solid #946343'}}>🛒 Ver carrito </Link>
                 </div>  

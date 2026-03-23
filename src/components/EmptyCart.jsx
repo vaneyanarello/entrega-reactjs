@@ -34,15 +34,15 @@ const EmptyCart = () => {
       
       return (
     <div>
-      <div style={{display: 'flex', flexDirection:'column',alignItems:'center', padding:'20px', gap:'30px'}}>
-        <h2 style={{color:'#946343'}}>Ups! Parece que aun no elegiste nada</h2>
-        <h3 style={{color:'#946343'}}>Esto podria gustarte:</h3>        
-        <div style={{display:'flex', justifyContent:'space-around', gap:'20px'}}>
+      <div style={{display: 'flex', flexDirection:'column',alignItems:'center', padding:'20px', gap:'20px'}}>
+        <h2 style={{color:'#946343'}}>Ups! Parece que aún no elegiste nada</h2>
+          <Link className='btn card-button' to='/'>Ver mas productos</Link>
+        <h3 style={{color:'#946343'}}>Esto podría gustarte:</h3>        
+        <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center', gap:'80px'}}>
             {Sugest.map(prod => (
                 <Item key={prod.id} prod={prod}/>
             ))}
         </div>
-      <Link className='btn card-button' to='/'>Ver mas productos</Link>
     </div>
     </div>
   )
