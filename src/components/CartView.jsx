@@ -20,7 +20,7 @@ const CartView = () => {
                     <span>{compra.price.toFixed(2)} €</span>
                     <span>cantidad: {compra.quantity}</span>
                     <span>precio final: {compra.quantity * compra.price.toFixed(2)} €</span>
-                    <button className= 'btn card-button' onClick={()=> removeItem(compra.id)}> <TiTrash/></button>
+                    <button className= 'btn card-button' onClick={()=> removeItem(compra.id, compra.variant)}> <TiTrash/></button>
                 </div>
             ))
         }

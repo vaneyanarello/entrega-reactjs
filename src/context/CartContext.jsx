@@ -33,9 +33,18 @@ export const CartProvider = ({children}) => {
         setCart([])
     }
 
-    const removeItem = (id)=> {
-        setCart(cart.filter((prod)=> prod.id !== id))
-    }
+    // const removeItem = (id)=> {
+    //     setCart(cart.filter((prod)=> prod.id !== id))
+    // }
+
+    const removeItem = (id, variant) => {
+    setCart(cart.filter((prod) => {
+        if(variant){
+            return !(prod.id === id && prod.variant === variant);
+        }
+        return prod.id !== id;
+    }));
+}
 
     const isInCart = (id, variant)=> {
         return cart.some((prod)=> prod.id === id && prod.variant === variant) 
